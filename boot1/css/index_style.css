@@ -280,12 +280,12 @@ nav li
 }
 .slick-next
 {
-    left:  53%;
+    left:  53% !important;
     z-index: 100;
 }
 .slick-prev
 {
-    left:  48s% !important;
+    left:  48% !important;
     z-index: 100;
 }
 .block5 .far
