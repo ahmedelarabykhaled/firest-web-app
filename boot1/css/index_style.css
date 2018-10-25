@@ -1,0 +1,400 @@
+.navbar-nav
+{
+/*    height: 100%!important;*/
+/*    margin-top: 15;*/
+}
+.navbar-nav .s
+{
+    padding-top: 20px;
+}
+body
+{
+/*    background-color: #09c;*/
+    font-family: "Open Sans", arial;
+}
+nav
+{
+    height: 80px;
+    width: 100%;
+    position: fixed!important;
+    top: 0;
+    transition: 0.5s;
+    z-index: 9999999;
+}
+nav img
+{
+    width: 140px;
+    height: 40px;
+/*    margin-top: 20;*/
+}
+nav .bt
+{
+    width: 120px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: white;
+    color: green;
+    transition: 0.2s;
+}
+nav .bt:hover
+{
+    color: white;
+    background-color: green;
+}
+nav .s
+{
+    padding-top: 15px;
+}
+@media screen and (min-width: 992px) {
+.navbar-nav {
+    position: absolute;
+      right: 0px;
+  }
+}
+@media screen and (max-width: 992px) {
+.navbar-nav {
+    background-color: white;
+  }
+.navbar-light .navbar-nav .nav-link
+    {
+        color: black!important;
+        padding: 20
+    }
+.navbar-light .navbar-nav .nav-link:hover
+    {
+        color: greenyellow!important;
+    }
+}
+nav .navbar-toggler
+{
+    background-color: white!important;
+}
+nav li
+{
+    float: right;
+}
+.nav-item a:hover
+{
+    color: green!important;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color: white;
+    transition: 0.2s;
+}
+.active a
+{
+    text-decoration: underline;
+    color: greenyellow!important;
+}
+.block1
+{
+    height: 640;
+    width: 100%;
+    background-image: url(../images/1.jpg);
+    background-size: 100% 140%;
+    position: relative;
+    top: 0;
+    z-index: -10;   
+}
+.block1 .back
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6)
+}
+.block1 .para
+{
+    width: 80%;
+    height: 80%;
+/*    padding-top: 250;*/
+    color: white;
+    position: relative;
+    bottom: -250;
+}
+.block1 .para p
+{
+    font-size: 2rem;
+}
+.block1 .para h1
+{
+    font-size: 3rem;
+}
+.block1 .btn
+{
+    width: 130;
+    height: 40;
+    background-color: green;
+    border: 0px;
+}
+.block1 .btn:hover
+{
+    color: green!important;
+    background-color: white!important;
+}
+@media screen and (max-width : 930px)
+{
+    .block1 .para h1
+    {
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 640px)
+{
+    .block1 .para h1
+    {
+        font-size: 1.8rem;
+    }
+}
+@media (max-width: 420px)
+{
+    .block1 .para h1
+    {
+        font-size: 1.2rem;
+    }
+    .block7 .para h2
+{
+    font-size: 35;
+}
+.block7 .para p
+{
+    font-size: 15;
+}
+    
+}
+@media (max-width:990px)
+{
+    .block10 .left
+    {
+        text-align: center;
+    }
+}
+.block2
+{
+    width: 100%;
+/*    background-color: red;*/
+}
+.block2 i
+{
+    color: green;   
+}
+.block3
+{   
+    background-color: rgba(0,0,0,0.05);
+}
+.block3 .para h2
+{
+    font-size: 3.4rem;
+}
+.block3 .para p
+{
+    color: rgba(0,0,0,0.4)
+}
+.block3 .card
+{
+    border: 0px;
+    overflow: hidden;
+}
+.block3 .card img
+{
+    transition: 1s;
+}
+.block3 .card img:hover
+{
+    transform: scale(1.07,1.07);
+}
+.block3 .card-body
+{
+    z-index: 100;
+    background-color: white;
+}
+.block3 .card-text
+{
+    color: rgba(0,0,0,0.5);
+}
+.block3 a
+{
+    color: black;
+    text-decoration: none;
+}
+.block3 a i
+{
+    transition: 0.5s;
+}
+.block3 a:hover>i
+{
+    color: greenyellow;
+    margin-left: 10px;
+}
+.block4 ul
+{
+    list-style-image: url(../images/green%20logo.png);background-size: 100px 100px;
+}
+.block4 ul li
+{
+    padding-top: 12px;
+}
+.block4 img
+{
+    height: 500px;
+}
+.block5
+{
+    background-color: rgba(0,0,0,0.05)
+}
+.block5 .c
+{
+    text-align: center;
+    width: 250px!important;
+    background-color: ;
+    text-align: left;
+    margin-top: 50px;
+}
+.block5 .c p
+{
+    padding: 10px;
+    background-color: rgba(0,100,0,0.1);
+    border-radius: 5px;
+}
+.slick-slider
+{
+    text-align: center;
+}
+.center
+{
+    height: 400px;
+}
+.slick-prev:before
+{
+    content: url(../images/left%20arrow.png) !important;
+}
+.slick-next:before
+{
+    content: url(../images/right%20arrow.png) !important
+}
+.slick-prev, .slick-next
+{
+    position: absolute;
+    top: 90% !important;
+/*    padding-bottom: 10px;*/
+}
+.slick-next
+{
+    left:  53%;
+    z-index: 100;
+}
+.slick-prev
+{
+    left:  48s% !important;
+    z-index: 100;
+}
+.block5 .far
+{
+    color: green;
+}
+.block6 .row #like,#comment,#bulb,#home
+{
+    font-size: 50px;
+}
+.block6 .far,.fas
+{
+    color: gainsboro;
+}
+.block7
+{
+    background-image: url(../images/9.jpg);
+    background-size: 100% 100%;
+    height: 500px;
+}
+.block7 .para
+{
+    background-color: rgba(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content : center;
+    text-align: center;
+    color: white;
+}
+.block7 .para h2
+{
+    font-size: 45;
+}
+.block7 .para p
+{
+    font-size: 20;
+}
+.block8 .row div
+{
+    padding: 20px;
+}
+.block8 .para h2
+{
+    font-size: 35px;
+}
+.block8 .para p
+{
+    color: rgba(0,0,0,0.5);
+}
+.block8 .row h6
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+.block8 .row p
+{
+    color: rgba(0,0,0,0.4);
+    font-weight: 600;
+}
+.block9
+{
+    background-color: rgba(0,0,0,0.2)
+}
+.block10
+{
+    background-color: green;
+    color: white
+}
+.block10 .right div
+{
+    background-color: white;
+    color: green;
+}
+.block10 .right div:hover
+{
+    background-color: #333;
+    color: white;
+}
+.block10 .row
+{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.block11 .all
+{
+    background-color: #222;
+    color: rgba(200,200,200,0.5) ;
+}
+.block11 h5
+{
+    color: white;
+    padding-bottom: 10px;
+}
+.block12
+{
+    background-color: black;
+    color: #333;
+}
+.block12 i
+{
+    font-size: 25px;
+    margin-right: 20px;
+    transition: 0.2s;
+    color: #222;
+}
+.block12 i:hover
+{
+    color: green;
+}
+
